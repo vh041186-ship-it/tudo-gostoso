@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+    grid-template-rows: repeat(3, 200px);
+    justify-items: end;
+    align-items: center;
+    background-image: url(imagens/fundo1.jpg);
+    background-size: cover;
+}
+.titulo{
+    font-size: 2.3rem;
+    text-align: center;
+    background-color: #e99577;
+    padding: 1.5rem;
+    color: #fff0ea;
+    border-radius: 20px;
+    grid-column: 5;
+    grid-row: 2;
+}
+#sobre-nos {
+    background-color: #fff0ea;
+    display: grid;
+    grid-template-columns: repeat(2, 620px);
+    grid-template-rows: repeat(4, auto);
+    align-items: center;
+    justify-self: end;
+}
+article {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #e99577;
+    border-radius: 20px;
+    padding: 1.5rem;
+    width: 600px;
+    color: #fff0ea;
+    grid-column: 2;
+    grid-row: 2;
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #552e19;
+    padding: 10px;
+}
