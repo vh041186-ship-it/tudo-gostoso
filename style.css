@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #fff0ea;
+}
 header{
     display: grid;
     grid-template-columns: repeat(10,auto);
@@ -20,30 +23,60 @@ header{
     color: #fff0ea;
     border-radius: 20px;
     grid-column: 5;
-    grid-row: 2;
+    grid-row: 1;
 }
-#sobre-nos {
+#Sobre-nos {
     background-color: #fff0ea;
-    display: grid;
-    grid-template-columns: repeat(2, 620px);
-    grid-template-rows: repeat(4, auto);
-    align-items: center;
-    justify-self: end;
+    margin-top: 7rem;
 }
-article {
-    text-align: center;
+#sobre-loja {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
     font-size: 1.5rem;
+}
+.Sobre-nos{
+    grid-column: 3;
+    grid-row: 3;
     background-color: #e99577;
-    border-radius: 20px;
-    padding: 1.5rem;
-    width: 600px;
     color: #fff0ea;
-    grid-column: 2;
-    grid-row: 2;
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 630px;
+    width: 100%;
 }
 h2 {
     text-align: center;
     font-size: 2rem;
     color: #552e19;
     padding: 10px;
+}
+#bolos {
+    margin-top: 7rem;
+
+}
+.bolos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+img {
+    border-radius: 20px;
+    margin: 2rem;
+}
+#botao-cardapio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: #fff0ea;
+    background-color: #552e19;
+    font-size: 1.5rem;
+    border: 2px solid #552e19;
+    border-radius: 20px;
+    padding: 0.8rem;
+    text-align: center;
 }
