@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff0ea;
+}
+header{
+    background-color: #e99577;
+}
+.Titulo-incial{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-bottom: 2.4rem;
+    color: #fff0ea;
+}
+nav{
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+@media (max-width: 650px) {
+    nav ul{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    }
+}
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff0ea;
+    background-color: #552e19;
+    padding: 0.9rem;
+    border-radius: 15px;
+    position: relative;
+    bottom: 14px;
+}
+a:hover{
+    border: 4px solid #fff0ea;
+    background-color: #fff0ea;
+    color: #552e19;
+}
+.caseiros-title{
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff0ea;
+    color: #552e19;
+    font-size: 2rem;
+}
+#Caseiros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+#Decorados{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+#Cobertura{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+#Frutados{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+h2{
+    background-color: #e99577;
+    color: #fff0ea;
+    font-size: 2rem;
+    text-align: center; 
+    padding: 2rem;
+    margin: 2rem;
+}

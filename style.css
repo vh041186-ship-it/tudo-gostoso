@@ -26,18 +26,18 @@ header{
     grid-row: 1;
 }
 #Sobre-nos {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
     background-color: #fff0ea;
-    margin-top: 7rem;
+    margin-top: 3rem;
 }
 #sobre-loja {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(4, auto);
     font-size: 1.5rem;
 }
 .Sobre-nos{
-    grid-column: 3;
-    grid-row: 3;
     background-color: #e99577;
     color: #fff0ea;
     border-radius: 20px;
@@ -45,29 +45,39 @@ header{
     max-width: 630px;
     width: 100%;
 }
+#bolos{
+    font-size: 1.5rem;
+}
+.Sobre-bolos{
+     background-color: #e99577;
+    color: #fff0ea;
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 630px;
+    width: 100%;
+    height: 250px;
+
+}
+
 h2 {
     text-align: center;
     font-size: 2rem;
     color: #552e19;
     padding: 10px;
-}
-#bolos {
-    margin-top: 7rem;
-}
-.bolos{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-}
-img {
-    border-radius: 20px;
-    margin: 2rem;
+    position: relative;
+    top: 50px;
+
 }
 #botao-cardapio {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 20px;
+}
+.cardapio:hover {
+        background-color: #fff0ea;
+        color: #552e19;
+        font-size: 1.7rem;
 }
 .cardapio{
     text-decoration: none;
@@ -79,20 +89,8 @@ img {
     padding: 0.8rem;
     text-align: center;
 }
-#contato {
-}
-.tel{
-    color: #fff0ea;
-    background-color: #e99577;
-    border-radius: 20px;
-    max-width: 600px;
-    width: 100%;
-    text-align: center;
-}
-h3 {
-    padding: 2rem;
-    font-size: 1.5rem;
-}
-.pedir-agora{
-
+@media (max-width: 650px) {
+    #Sobre-nos {
+        margin: 3rem;
+    }
 }
