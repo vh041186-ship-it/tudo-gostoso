@@ -198,7 +198,7 @@ article ul{
         right: 1rem;
         bottom: 150px;
      }
-     .bnt:hover{
+     .bnt:active{
         background-color: #fff0ea;
         color: #552e19;
         border: 2px;
