@@ -8,6 +8,16 @@
 </head>
 <body>
     <header>
+        <nav id="nav-bar">
+            <h1 class="Titulo-incial">Cardapio</h1>
+            <button class="bnt">&#9776;</button>
+                 <ul>
+                    <li><a class="tg-items" href="#Caseiros">Caseiros</a></li>
+                    <li><a class="tg-items" href="#Decorados">Decorados</a></li>
+                    <li><a class="tg-items" href="#Cobertura">Cobertura</a></li>
+                    <li><a class="tg-items" href="#Frutados">Frutados</a></li>
+            </ul>
+        </nav>
         <nav>
             <h1 class="Titulo-incial">Cardapio</h1>
                 <ul>
@@ -436,8 +446,15 @@
                     </details>
             </article>
         </section>
-        
     </main>
     <footer></footer>
+    <script>
+  const btn = document.querySelector(".bnt");
+  const menu = document.querySelector("#nav-bar ul");
+
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });
+</script>
 </body>
 </html>

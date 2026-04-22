@@ -139,4 +139,71 @@ article ul{
     width: 20rem;
     position:absolute;
 }
+#nav-bar{
+    display: none;
+}
 
+@media (max-width: 600px) {
+    #nav-bar{
+        display: block;
+    }
+    header{
+        height: 120px;
+        max-width: 100%;
+    }
+    .Titulo-inicial{
+            font-size: 2rem;
+            position: relative;
+            top: 2rem;
+    }
+    #nav-bar ul.active{
+        display: none;
+    }
+     #nav-bar ul{
+        display: none;
+        display: flex;
+        flex-direction: column;
+        color: #552e19;
+        background-color: #f5baa4;
+        max-width: 150px;
+        width: 100%;
+        height: 250px;
+        list-style: none;
+        position: relative;
+        bottom: 10rem;
+        left: 1rem;
+        border-radius: 10px;
+     }
+     .tg-items {
+            margin-left: 0.5rem;
+            padding: 1rem;
+            color: #552e19;
+     }
+     .tg-items:hover{
+        border: 2px solid #552e19;
+        background-color: #552e19;
+        color: #fff0ea;
+     }
+     .bnt{
+        font-size: 2.5rem;
+        background-color: transparent;
+        border: none;
+        padding: 0.2rem;
+        margin: 1rem;
+        margin-top: 3%;
+        color: #fff0ea;
+        border-radius: 10px;
+        width: 60px;
+        position: relative;
+        right: 1rem;
+        bottom: 150px;
+     }
+     .bnt:hover{
+        background-color: #fff0ea;
+        color: #552e19;
+        border: 2px;
+     }
+    nav{
+        display: none;
+    }
+}
