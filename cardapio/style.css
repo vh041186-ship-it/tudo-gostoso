@@ -114,7 +114,7 @@ details{
 }
 img{
     border-radius: 10px;
-    min-width: 390px;
+    min-width: 400px;
     max-width: 400px;
     width: 100%;
     height: 400px;
@@ -238,5 +238,11 @@ div{
     .Bnt-pedido:hover{
         padding: 1.1rem;
         font-size: 1.5rem;
+    }
+    img{
+        max-width: 370px;
+        min-height: 360px;
+        width: 100%;
+        height: 370px;
     }
 }
