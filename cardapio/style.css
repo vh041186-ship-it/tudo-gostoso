@@ -39,7 +39,7 @@ nav ul{
     gap: 15px;
     }
 }
-a {
+.Menu-nav{
     text-decoration: none;
     font-size: 1.5rem;
     color: #fff0ea;
@@ -49,7 +49,7 @@ a {
     position: relative;
     bottom: 26px;
 }
-a:hover{
+.Menu-nav:hover{
         border: 3px solid #fff0ea;
         padding: 0.9rem;
 }
@@ -142,6 +142,24 @@ article ul{
 #nav-bar{
     display: none;
 }
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Bnt-pedido{
+    font-size: 1.6rem;
+    background-color: #552e19;
+    text-decoration: none;
+    color: #fff0ea;
+    padding: 1rem;
+    border-radius: 15px;
+     box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+}
+.Bnt-pedido:hover{
+        padding: 1.1rem;
+        font-size: 1.7rem;
+}
 
 @media (max-width: 600px) {
     #nav-bar{
@@ -163,6 +181,7 @@ article ul{
         display: none;
         display: flex;
         flex-direction: column;
+        gap: 15px;
         color: #552e19;
         background-color: #f5baa4;
         max-width: 150px;
@@ -177,6 +196,12 @@ article ul{
      .tg-items {
             margin-left: 0.5rem;
             padding: 1rem;
+            color: #552e19;
+            text-decoration: none;
+            color: #fff0ea;
+            margin: 0.6rem;
+            font-size: 1.4rem;
+            border-radius: 15px;
             color: #552e19;
      }
      .tg-items:hover{
@@ -205,5 +230,12 @@ article ul{
      }
     nav{
         display: none;
+    }
+    .Bnt-pedido{
+        font-size: 1.4rem;
+    }
+    .Bnt-pedido:hover{
+        padding: 1.1rem;
+        font-size: 1.5rem;
     }
 }
