@@ -55,8 +55,7 @@ header{
     padding: 2rem;
     max-width: 630px;
     width: 100%;
-    height: 250px;
-
+    height: 260px;
 }
 
 h2 {
@@ -95,4 +94,12 @@ h2 {
     #Sobre-nos {
         margin: 3rem;
     }
+    .titulo{
+        font-size: 2rem;
+        margin: 1.2rem;
+    }
+    .Sobre-bolos{
+        height: 420px;
+    }
 }
+
