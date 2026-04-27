@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 body{
     background-color: #fff0ea;
@@ -137,7 +138,6 @@ article ul{
     color: #fff0ea;
     font-size: 1.3rem;
     width: 20rem;
-    position:absolute;
 }
 #nav-bar{
     display: none;
@@ -237,6 +237,5 @@ div{
     .Bnt-pedido:hover{
         padding: 1.1rem;
         font-size: 1.5rem;
-    }
     }
 }
