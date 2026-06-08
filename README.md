@@ -1,3 +1,4 @@
+
 # 🍰 Tudo Gostoso
 
 Vitrine digital para uma loja de bolos, onde clientes podem visualizar os produtos disponíveis e realizar pedidos diretamente via WhatsApp.
@@ -10,7 +11,8 @@ Vitrine digital para uma loja de bolos, onde clientes podem visualizar os produt
 
 ## 📸 Preview
 
-<img width="1892" height="911" alt="Captura de tela 2026-04-25 202013" src="https://github.com/user-attachments/assets/53bbde79-a682-4677-8807-4a80d7d83757" />
+<img width="1556" height="769" alt="preview" src="https://github.com/user-attachments/assets/7d3a3cb9-072e-4df8-999d-efcdaec64df6" />
+
 
 
 ## 📌 Funcionalidades
